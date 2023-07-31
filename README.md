@@ -1,12 +1,12 @@
-# ✨Formulario com validação 👩‍💻
+# ✨Formulário com validação JS 👩‍💻
 
-Desafio de JavaScript  para criação de um formulário com validação
+Desafio de JavaScript para criar um formulário com validação
 
 ![image](./design/formulario-design.png)
 
 ## Challenges 🚀
 
-- O objetivo principal foi a criar um formulário de validação usando JavaScript, seguindo os design de orientação:
+- O objetivo principal foi criar um formulário de validação usando JavaScript, seguindo o design de orientação
 
 - Validação confirmada: ✅
 
@@ -21,7 +21,7 @@ Desafio de JavaScript  para criação de um formulário com validação
     
     - Ver os estados de foco para todos os elementos interativos na página
 
-    - orientar-se por meio elementos
+    - orientar-se através dos elementos
 
 
 - Desenvolvi habilidades em JavaScript, HTML e CSS ✅
