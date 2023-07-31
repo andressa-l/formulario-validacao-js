@@ -1,0 +1,131 @@
+body {
+    background-image: url(../images/bg-repeat.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-size: contain;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 70px;
+    margin: auto;
+}
+
+/* TEXTO */
+
+.text {
+    flex-direction: column;
+    width: 300px;
+    color: #ffffff;
+}
+
+.text h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    word-wrap: break-word;
+}
+
+.text h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    word-wrap: break-word;
+}
+
+/* FORMULARIO */
+
+form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    padding: 20px;
+    width: 340px;
+    height: 378px;
+    gap: 10px;
+}
+
+.formulario .forma {
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-top: 0.8rem;
+    width: 300px;
+    border: 1.5px solid #000000;
+    outline: 0;
+    font-style: normal;
+    align-items: center;
+    line-height: 1.8rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding: 0.9rem;
+    resize: none;
+}
+
+.formulario .botao {
+    text-align: center;
+    color: #ffffff;
+    word-wrap: break-word;
+    background-color: #3CCC87;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    border-style: none;
+    font-weight: 700;
+}
+
+/* CAMPOS OBRIGATORIOS */
+
+.requeridos {
+    font-size: 1.4rem;
+    color: #f52e2e;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    opacity: 0;
+}
+
+.formulario .important {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-style: normal;    
+}
+
+/* PARTE SCRIPT */
+
+.formulario .bordas-verde-v {
+    border: 1px solid #00c22b;
+}
+
+.formulario .bordas-vermelhas-f {
+    border: 1px solid #f52e2e;
+}
+
+input::placeholder, textarea::placeholder{
+    color: #A8A8A8;
+}
+
+.formulario .mensagem {
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    outline: 0;
+}
+
+.mostrar {
+    opacity: 1;
+}
+
+@media (max-width: 766px){
+    main {
+        margin: 20px; 
+        padding: 20px;
+        display: grid;
+        gap: 5px;
+    }
+}
